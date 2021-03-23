@@ -1,0 +1,98 @@
+/*обнуления*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+body {
+	background: url(../img/bg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+hr {
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.background {
+	background-color: white;
+	margin: 2.5% 10%;
+	padding: 10px 40px;
+}
+.logo_card {
+	display: flex;
+	justify-content: space-between;
+    margin: 50px 0;
+}
+.card {
+	text-align: center;
+	color: black;
+}
+.header__buttons {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button {
+	background: #91ac27;
+    width: 246px;
+    height: 36px;
+    color: white;
+    transition: all 0.5s;
+    margin: 10px 0;
+    font-size: 16px;
+}
+button:hover {
+	background: #629c16;
+	transition: all 0.5s;
+}
+.cardbutton {}
+.header__clearCard {}
+.products {}
+.form__bg {
+	background: url(../img/empty-bg.jpg) no-repeat center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding: 100px 25%;
+}
