@@ -94,12 +94,15 @@ hr {
 	margin: 0 40px 0 0;
 }
 .menu__link {
+	padding-bottom: 15px;
 	color: black;
 	transition: all 0.5s;
+	 border-bottom: 2px solid transparent;
 }
 .menu__link:hover {
 	color: #91ac27;
 	transition: all 0.5s;
+	border-bottom: 2px solid #91ac27;
 }
 .sub-menu__list {
 	display: none;
@@ -130,7 +133,10 @@ hr {
 .catalog {
 	padding-bottom: 15px;
 }
-/*------ Menu ------*/
+/*------ mein------*/
+h2 {
+	margin: 15px 0;
+}
 .products {
 	display: flex;
     flex-wrap: wrap;
@@ -150,7 +156,75 @@ h3 {
 	display: flex;
     flex-direction: column;
     align-items: center;
-	padding: 100px 25%;
+	padding: 100px;
+}
+.form__bg p {
+	color: white;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+#email {
+	width: 246px;
+    height: 36px;
+    padding: 10px;
+}
+.submit {
+	background: #91ac27;
+    width: 246px;
+    height: 36px;
+    color: white;
+    transition: all 0.5s;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.submit:hover {
+	background: #629c16;
+	transition: all 0.5s;
+}
+/*--------footer--------------*/
+.section__article {
+	display: flex;
+    justify-content: space-between;
+}
+.section__article article {
+	margin: 20px 5px;
+}
+.section__article article h3 {
+	font-size: 28px;
+	font-weight: 600;
+}
+.section__a {
+	display: flex;
+	justify-content: center;
+}
+.section__a a {
+	margin: 20px 5px;
+	background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.section__a a:hover {
+	background: #629c16;
+	transition: all 0.5s;
+}
+.section__a a:nth-child(2n) {
+	padding-left: 1px;
+}
+.section__a a:last-child {
+	padding-left: 1px;
+}
+.copyright {
+	text-align: center;
+	padding: 15px;
 }
 /*---buttons---*/
 button {
