@@ -64,12 +64,14 @@ hr {
 	justify-content: space-between;
     margin: 50px 0;
 }
-.card {
+.header__card {
 	text-align: center;
 	color: black;
 	transition: all 0.5s;
+	text-decoration: none;
+	margin: 5px 0;
 }
-.card:hover {
+.header__card:hover {
 	color: #91ac27;
 	transition: all 0.5s;
 }
@@ -97,7 +99,8 @@ hr {
 	padding-bottom: 15px;
 	color: black;
 	transition: all 0.5s;
-	 border-bottom: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	text-decoration: none;
 }
 .menu__link:hover {
 	color: #91ac27;
@@ -110,6 +113,8 @@ hr {
 	position: absolute;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	z-index: 1;
+	padding: 0;
 }
 .sub-menu__list>li {
 	background-color: #f9f9f9;
@@ -125,6 +130,7 @@ hr {
     padding: 10px;
     color: black;
     transition: all 0.5s;
+    text-decoration: none;
 }
 .sub-menu__link:hover {
 	color: #91ac27;
@@ -227,7 +233,7 @@ h3 {
 	padding: 15px;
 }
 /*---buttons---*/
-button {
+.button {
 	background: #91ac27;
     width: 246px;
     height: 36px;
@@ -236,7 +242,8 @@ button {
     margin: 10px 0;
     font-size: 16px;
 }
-button:hover {
+.button:hover {
 	background: #629c16;
 	transition: all 0.5s;
 }
+/*------arrow up-----*/
